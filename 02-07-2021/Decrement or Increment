@@ -1,0 +1,31 @@
+import java.util.*;
+class DecrementIncrement
+{
+    public static void main(String args[])
+    {
+        Scanner scn= new Scanner(System.in);
+        System.out.println(" Enter the value n");
+        int n = scn.nextInt();
+        {
+        if( n%4==0)
+        {
+        
+            ++n;
+            System.out.println(n);
+            
+        }
+        else
+        {
+         --n;
+            System.out.println(n);
+            
+        }
+        }
+        }
+        }
+    
+    
+    Output:
+    Enter the value n
+    5
+    4
